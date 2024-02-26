@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cотрудничество - Shulepov_Code</title>
+    <link
+      rel="icon"
+      href="https://shulepov-code.ru/wp-content/uploads/2022/04/favicon.svg"
+      sizes="192x192"
+    />
+
+    <link
+      rel="icon"
+      href="https://shulepov-code.ru/wp-content/uploads/2022/04/favicon.svg"
+      sizes="32x32"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      href="https://shulepov-code.ru/wp-content/uploads/2022/04/favicon.svg"
+    />
+
+    <meta
+      name="msapplication-TileImage"
+      content="https://shulepov-code.ru/wp-content/uploads/2022/04/favicon.svg"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+      integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+      crossorigin="anonymous"
+    ></script>
+    <!-- <link rel="stylesheet" href="normarlize.css" /> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header id="masthead" class="header">
+      <div class="header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-2 d-flex align-items-center">
+              <a
+                href="https://shulepov-code.ru/"
+                class="custom-logo-link"
+                rel="home"
+                aria-current="page"
+                ><img
+                  width="167"
+                  height="25"
+                  src="https://shulepov-code.ru/wp-content/uploads/2022/04/sc-logo.svg"
+                  class="custom-logo"
+                  alt="Shulepov_Code"
+                  decoding="async"
+                  title="Главная" /></a
+              ><a
+                class="custom-logo-link--mobile d-md-none d-block"
+                href="https://shulepov-code.ru"
+                ><img
+                  src="https://shulepov-code.ru/wp-content/themes/creamel/img/s-c-logo.svg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-10 d-flex align-items-center justify-content-end">
+              <div class="contacts-online-wrapper">
+                <div class="online-now d-lg-block d-none">Сейчас на связи</div>
+                <div class="d-flex align-items-center">
+                  <a
+                    href="https://wa.me/79046343892"
+                    class="contact-wa d-lg-block d-none"
+                    target="_blank"
+                    ><div class="icon-wa"></div
+                  ></a>
+                  <a href="tel:+79046343892" class="contact-phone"
+                    >+7 (904) 634-38-92</a
+                  >
+                </div>
+              </div>
+
+              <div class="language">
+                <div class="menu-perekljuchatel-jazyka-container">
+                  <ul id="Language" class="nav nav-pills">
+                    <li class="nav-item dropdown">
+                      <a
+                        href="#"
+                        class="nav-link dropdown-toggle link-nav"
+                        id="languageDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        >Ru <span class="icon"></span>
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="languageDropdown"
+                      >
+                        <li class="nav-item">
+                          <a
+                            href="https://shulepov-code.ru/"
+                            class="dropdown-item"
+                            hreflang="ru-RU"
+                            lang="ru-RU"
+                            >Ru</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            href="https://shulepov-code.ru/en/home/"
+                            class="dropdown-item"
+                            hreflang="en-US"
+                            lang="en-US"
+                            >En</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="dropdown brief">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  id="briefDropdown"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span class="d-md-block d-none">Заполнить бриф</span>
+                  <span class="d-md-none d-block">Бриф</span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="briefDropdown">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://shulepov-code.ru/brif-na-razrabotku-sajta/"
+                      >Создание сайта</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://shulepov-code.ru/brif-na-prodvizhenie-sajta/"
+                      >SEO-продвижение</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://shulepov-code.ru/brif-na-sozdanie-logotipa/"
+                      >Дизайн</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://shulepov-code.ru/brif-na-razmeshhenie-reklamy/"
+                      >Реклама</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <a
+                href="whatsapp://send?phone=79046343892/"
+                class="contact-wa d-lg-none d-block"
+                target="_blank"
+                ><div class="icon-wa"></div
+              ></a>
+              <a
+                href="https://t.me/shulepov_code"
+                class="contact-tg"
+                target="_blank"
+                ><div class="icon-tg icon-tg--blue"></div>
+                <span>Написать в Telegram</span></a
+              >
+              <div class="header__menu-button"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="breadcrumbs">
+      <div class="container">
+        <div class="row">
+          <nav aria-label="breadcrumbs-nav">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a class="custom-breadcrumb-link active" href="#">
+                  <span>Главная</span>
+                </a>
+              </li>
+              <li class="breadcrumb-item" aria-current="page">
+                <a class="custom-breadcrumb-link" href="#">
+                  <span>Сайты</span>
+                </a>
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="main-screen">
+        <div class="container">
+          <div class="row">
+            <!-- <div class="col-12"> -->
+            <div class="main-screen__wrapper">
+              <div class="main-screen__top row col-12">
+                <h1 class="main-screen__heading my-5">Сотрудничество</h1>
+                <p class="main-screen__subheading">
+                  Я предлагаю взаимовыгодную схему партнерского сотрудничества
+                  для всех, кто ищет возможности расширения своего бизнеса.
+                </p>
+                <div
+                  class="main-screen__custom-btn col-xxl-3 col-xl-4 col-lg-4 col-md-5 col-sm-6"
+                >
+                  <button class="main-screen__btn btn r-btn py-4">
+                    Стать партнером
+                  </button>
+                </div>
+              </div>
+              <div class="main-screen__bottom row">
+                <div class="main-screen__inner d-flex">
+                  <div
+                    class="main-screen__righ-box col-lg-7 col-md-12 col-sm-12 mb-3"
+                  >
+                    <h2 class="main-screen__title">Задачи партнера</h2>
+                  </div>
+
+                  <div
+                    class="main-screen__left-box col-lg-5 col-md-12 col-sm-12"
+                  >
+                    <ul class="main-screen__list list-group">
+                      <li class="main-screen__list-item">
+                        <img
+                          src="./img/circle-svgrepo-com.svg"
+                          alt=""
+                          class="main-screen__list-item"
+                        />
+                        <span>Поиск потенциальных клиентов</span>
+                      </li>
+                      <li class="main-screen__list-item">
+                        <img
+                          src="./img/circle-svgrepo-com.svg"
+                          alt=""
+                          class="main-screen__list-item"
+                        />
+                        <span
+                          >Презентация им услуг разработки, контекстной рекламы,
+                          продвижение сайтов</span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- </div> -->
+          </div>
+        </div>
+        <div class="main-screen__spot-one"></div>
+        <div class="main-screen__spot-two"></div>
+      </section>
+      <section class="partnership-scheme mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="partnership-scheme__wrapper d-flex col-xl-12 col-12">
+              <div
+                class="parthership-scheme__box-title col-lg-7 col-md-12 mb-5"
+              >
+                <h2 class="partnership-scheme__title">Схема партнерства</h2>
+              </div>
+              <ul class="partnership-scheme__list col-lg-5 col-md-12">
+                <li class="partnership-scheme__item mb-4">
+                  <div class="number mr-4">1</div>
+                  <div>
+                    Партнерское вознаграждение составляет от 10% за разработку
+                    сайта
+                  </div>
+                </li>
+                <li class="partnership-scheme__item">
+                  <div class="number mr-4">2</div>
+                  <span>
+                    Партнерское вознаграждение составляет от 10% за SEO кадый,
+                    который клиент работает со мной
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="advantages">
+        <div class="container">
+          <div class="row">
+            <div class="advantages-wrapper col-xl-12 col-12 d-flex">
+              <div class="col-lg-6 col-md-12 advantages__inner-right">
+                <h2 class="advantages-title">
+                  Что вы можете предложить клиентам
+                </h2>
+
+                <div class="advantages-image">
+                  <img src="./img/shulepov-body.png" alt="Alexsandr" />
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-122 advantages__inner-left">
+                <ul class="advantages-list">
+                  <li class="advantages-list__item mb-4">
+                    <div class="icon me-3">
+                      <img src="./img/icon-star.svg" alt="star" />
+                    </div>
+                    <span>
+                      Разработку сайта под ключ сайта (сайт визитка;
+                      корпоративный сайт, landing page, сайты услуг и пр)
+                    </span>
+                  </li>
+                  <li class="advantages-list__item mb-4">
+                    <div class="icon mr-5">
+                      <img src="./img/circles.svg" alt="circles" />
+                    </div>
+                    <span>Аудита, настройки и ведения Яндекс Директа</span>
+                  </li>
+                  <li class="advantages-list__item mb-4">
+                    <div class="icon mr-5">
+                      <img
+                        src="./img/Screw_Head_-_Pentagon_External.svg"
+                        alt="Pentagon"
+                      />
+                    </div>
+                    <span>SEO продвижение</span>
+                  </li>
+                  <li class="advantages-list__item mb-4">
+                    <div class="icon mr-5">
+                      <img src="./img/icon-triangle.svg" alt="triangle" />
+                    </div>
+                    <span>Аудит сайтов для SEO и разработки сайта</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="examples">
+        <div class="container">
+          <div class="row">
+            <h2 class="examples-title">Примеры сотрудничества</h2>
+            <div>
+              <div class="row exaples-images-block">
+                <div class="col-lg-6 col-md-12">
+                  <div
+                    type="button"
+                    class="exaples-images mb-3"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal1"
+                  >
+                    <img
+                      src="./img/examples-1.PNG"
+                      class="rounded mx-auto d-block"
+                      alt="examples-1"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                  <div
+                    type="button"
+                    class="exaples-images"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal2"
+                  >
+                    <img
+                      src="./img/examples-2.PNG"
+                      class="rounded mx-auto d-block"
+                      alt="examples-2"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="info">
+        <div class="container">
+          <div class="row">
+            <div class="info-wrapper col-lg-12 d-flex">
+              <div class="info__title col-lg-6 col-md-12">
+                <h2>Дополнительная информация</h2>
+              </div>
+              <div class="info__text col-lg-6 col-md-12">
+                <p>
+                  Для получения дополнительной информации, материалов о схеме
+                  сотрудничества, напишите на почту,
+                  <a class="info__email">onesait@mail.ru</a> или звоните по
+                  номеру
+                  <a class="info__phone">+7 (904) 634-38-92.</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="container">
+          <div class="contacts__wrapper row">
+            <div class="contacts__inner gx-3 align-items-center col-lg-8 mb-5">
+              <form class="contacts__form">
+                <div class="row mb-4">
+                  <h2 class="contacts__title">Хотите стать партнером?</h2>
+                  <span class="contacts__subtitle">
+                    Выберите удобный способ связи:
+                  </span>
+                </div>
+                <div class="row col-12 mb-4">
+                  <div class="contacts__links">
+                    <a href="" class="contacts__link col-md-3 col-12 me-4 mb-2">
+                      <img src="./img/icon mail.svg" alt="mail" /><span
+                        >E-mail</span
+                      >
+                    </a>
+                    <a href="" class="contacts__link col-md-3 col-12 me-4 mb-2">
+                      <img src="./img/whatsapp.svg" alt="whatsapp" />
+                      <span>Whatsapp</span>
+                    </a>
+                    <a href="" class="contacts__link col-md-3 col-12 mb-2">
+                      <img src="./img/telegram-blue.svg" alt="telegram" />
+                      <span>Telegram</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <span class="contacts__subtitle _second__subtitle"
+                    >Ваши контактные данные:</span
+                  >
+                </div>
+                <div class="row mb-3 col-12 contacts__inputs">
+                  <!-- <div class="col-12 contacts__inputs"> -->
+                  <div class="col-md-3 col-12 mb-2 input-col">
+                    <input
+                      type="text"
+                      class="form-control contacts__input"
+                      id="autoSizingInput"
+                      placeholder="Ваше имя*"
+                    />
+                  </div>
+                  <div class="col-md-3 col-12 mb-2 input-col">
+                    <input
+                      id="autoSizingInputGroupPhone"
+                      placeholder="Ваш телефон*"
+                      type="tel"
+                      class="form-control contacts__input"
+                    />
+                  </div>
+                  <div class="col-md-3 col-12 mb-2 input-col">
+                    <input
+                      id="autoSizingInputGroupEmail"
+                      placeholder="E-mail*"
+                      type="email"
+                      class="form-control contacts__input"
+                    />
+                  </div>
+                  <div class="col-md-3 col-12 submit-col">
+                    <button
+                      type="submit"
+                      class="btn r-btn contacts__submit w-100"
+                    >
+                      Оставить заявку
+                    </button>
+                  </div>
+                  <!-- </div> -->
+                </div>
+                <div class="row">
+                  <p class="contacts-subscription">
+                    Нажимая кнопку, Вы принимаете Положение и Согласие на
+                    обработку <a href="#">персональных данных.</a>
+                  </p>
+                </div>
+              </form>
+            </div>
+
+            <div class="col-lg-4">
+              <img src="./img/tabs-sites.png" alt="" class="contacts-image" />
+            </div>
+          </div>
+        </div>
+        <div class="main-screen__spot-one"></div>
+        <div class="main-screen__spot-two"></div>
+      </section>
+    </main>
+
+    <footer id="colophon" class="site-footer pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-5">
+            <div class="custom-logo-link__wrapper pb-96">
+              <a
+                href="https://shulepov-code.ru/"
+                class="custom-logo-link"
+                rel="home"
+                ><img
+                  width="167"
+                  height="25"
+                  src="https://shulepov-code.ru/wp-content/uploads/2022/04/sc-logo.svg"
+                  class="custom-logo"
+                  alt="Shulepov_Code"
+                  decoding="async"
+                  title="Контакты"
+              /></a>
+            </div>
+            <div class="site-description">Описание моего сайта</div>
+            <div class="mb-4">© 2024 Shulepov_Code</div>
+            <a href="/politika-konfidencialnosti/"
+              >Политика конфиденциальности</a
+            >
+          </div>
+          <div class="col-lg-2 col-md-3 col-6 mb-5">
+            <div class="block-title">Услуги</div>
+            <div class="menu-uslugi-futer-container">
+              <ul id="Footer-services" class="menu">
+                <li
+                  id="menu-item-557"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-557"
+                >
+                  <a href="https://shulepov-code.ru/razrabotka/"
+                    >Разработка сайтов</a
+                  >
+                </li>
+                <li
+                  id="menu-item-590"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-590"
+                >
+                  <a href="https://shulepov-code.ru/seo-prodvizhenie/"
+                    >СЕО-продвижение</a
+                  >
+                </li>
+                <li
+                  id="menu-item-592"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-592"
+                >
+                  <a href="https://shulepov-code.ru/dizajn/">Дизайн сайтов</a>
+                </li>
+                <li
+                  id="menu-item-591"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-591"
+                >
+                  <a href="https://shulepov-code.ru/reklama/"
+                    >Реклама в интернете</a
+                  >
+                </li>
+                <li
+                  id="menu-item-2906"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2906"
+                >
+                  <a href="https://shulepov-code.ru/konsultacii/"
+                    >Консультации</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6 mb-5">
+            <div class="block-title">Инфо</div>
+            <div class="menu-info-futer-container">
+              <ul id="Footer-company" class="menu">
+                <li
+                  id="menu-item-99"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"
+                >
+                  <a href="https://shulepov-code.ru/obo-mne/">Обо мне</a>
+                </li>
+                <li
+                  id="menu-item-1831"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1831"
+                >
+                  <a href="https://shulepov-code.ru/portfolio/">Портфолио</a>
+                </li>
+                <li
+                  id="menu-item-117"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-117"
+                >
+                  <a href="https://shulepov-code.ru/clients/">Клиенты</a>
+                </li>
+                <li
+                  id="menu-item-202"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202"
+                >
+                  <a href="https://shulepov-code.ru/klienty-i-otzyvy/"
+                    >Отзывы</a
+                  >
+                </li>
+                <li
+                  id="menu-item-100"
+                  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-100"
+                >
+                  <a href="https://shulepov-code.ru/blog/">Блог</a>
+                </li>
+                <li
+                  id="menu-item-101"
+                  class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item menu-item-101"
+                >
+                  <a
+                    href="https://shulepov-code.ru/contacts/"
+                    aria-current="page"
+                    >Контакты</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-4 col-md-6 col-12">
+            <div class="block-title">Связь со мной</div>
+            <div class="contacts-block mb-4">
+              <a href="tel:+79046343892">+7 (904) 634-38-92</a>
+              <a href="mailto:onesait@mail.ru" target="_blank"
+                >onesait@mail.ru</a
+              >
+            </div>
+            <a
+              href="/sotrudnichestvo/"
+              class="cooperation d-block text-red mb-4"
+              >Сотрудничество 💵</a
+            >
+            <div class="messengers d-xl-none d-lg-flex d-none mt-5">
+              <a
+                class="messengers__btn r-btn mb-4"
+                href="https://t.me/shulepov_code"
+                target="_blank"
+              >
+                <img
+                  src="https://shulepov-code.ru/wp-content/uploads/2022/04/telegram.svg"
+                />
+                <div class="messengers__name">Telegram</div>
+              </a>
+              <a
+                class="messengers__btn r-btn mb-4"
+                href="whatsapp://send?phone=79046343892/"
+                target="_blank"
+              >
+                <img
+                  src="https://shulepov-code.ru/wp-content/uploads/2022/04/whatsapp-white.svg"
+                />
+                <div class="messengers__name">WhatsApp</div>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 col-12">
+            <div class="messengers d-xl-flex d-lg-none d-flex mt-md-0 mt-4">
+              <a
+                class="messengers__btn r-btn mb-4"
+                href="https://t.me/shulepov_code"
+                target="_blank"
+              >
+                <img
+                  src="https://shulepov-code.ru/wp-content/uploads/2022/04/telegram.svg"
+                />
+                <div class="messengers__name">Написать в Telegram</div>
+              </a>
+              <a
+                class="messengers__btn r-btn mb-4"
+                href="whatsapp://send?phone=79046343892/"
+                target="_blank"
+              >
+                <img
+                  src="https://shulepov-code.ru/wp-content/uploads/2022/04/whatsapp-white.svg"
+                />
+                <div class="messengers__name">Написать в WhatsApp</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  <div
+    class="modal fade"
+    id="exampleModal1"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel1"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="./img/examples-1.PNG" class="img-fluid w-100" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="modal fade"
+    id="exampleModal2"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel1"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="./img/examples-2.PNG" class="img-fluid w-100" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</html>
